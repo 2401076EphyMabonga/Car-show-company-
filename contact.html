@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Feedback</title>
+<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
+    </nav>
+<h1>Client Feedback & Querry Form</h1>
+
+<form id="feedbackForm">
+    <label for="name">Your Name:</label>
+    <input type="text" placeholder="Your full name" required> <br> <br>
+    <label for="number">Phone No:</label>
+    <input type="number" placeholder="Enter your phone number" required> <br><br>
+  <label for="feedback">Your Feedback/Querry:</label><br>
+  <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+  <button type="submit">Submit</button>
+</form>
+<div id="notification"></div>
+<script src="script.js"></script>
+</body>
+</html>
